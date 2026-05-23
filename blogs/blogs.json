@@ -1,0 +1,128 @@
+{
+  "repo": "cozen-oconnor",
+  "discovered": "2026-05-23",
+  "notes": "Cozen O'Connor's corporate domain (cozen.com) does not expose a public RSS feed; subscription is via email signup. However, the firm's LexBlog/WordPress-hosted practice-area blog network — 14 distinct properties, each on its own domain — exposes standard WordPress RSS 2.0 feeds at `/feed/`. Each feed below was fetched and validated as well-formed RSS 2.0. Two podcast properties (Subro on the Go, State AG Pulse) are categorized under their parent blog feeds.",
+  "feeds": [
+    {
+      "source": "https://www.subrogationrecoverylawblog.com",
+      "feed_url": "https://www.subrogationrecoverylawblog.com/feed/",
+      "title": "Subrogation & Recovery Law Blog",
+      "topic": "Subrogation And Recovery",
+      "saved": 1,
+      "validated": true
+    },
+    {
+      "source": "https://www.cyberlawmonitor.com",
+      "feed_url": "https://www.cyberlawmonitor.com/feed/",
+      "title": "Cyber Law Monitor",
+      "topic": "Cybersecurity And Data Privacy",
+      "saved": 1,
+      "validated": true
+    },
+    {
+      "source": "https://www.transformativeailegalleaps.com",
+      "feed_url": "https://www.transformativeailegalleaps.com/feed/",
+      "title": "Transformative AI: Legal Leaps",
+      "topic": "AI Law",
+      "saved": 1,
+      "validated": true
+    },
+    {
+      "source": "https://www.stateagreport.com",
+      "feed_url": "https://www.stateagreport.com/feed/",
+      "title": "The State AG Report",
+      "topic": "State Attorneys General",
+      "saved": 1,
+      "validated": true
+    },
+    {
+      "source": "https://www.healthlawinformer.com",
+      "feed_url": "https://www.healthlawinformer.com/feed/",
+      "title": "Health Law Informer",
+      "topic": "Healthcare Law",
+      "saved": 1,
+      "validated": true
+    },
+    {
+      "source": "https://www.nobadfaith.com",
+      "feed_url": "https://www.nobadfaith.com/feed/",
+      "title": "Avoiding Insurance Bad Faith",
+      "topic": "Insurance Bad Faith",
+      "saved": 1,
+      "validated": true
+    },
+    {
+      "source": "https://www.casualtycoveragechronicle.com",
+      "feed_url": "https://www.casualtycoveragechronicle.com/feed/",
+      "title": "Casualty Coverage Chronicle",
+      "topic": "Casualty Insurance Coverage",
+      "saved": 1,
+      "validated": true
+    },
+    {
+      "source": "https://www.propertyinsurancelawobserver.com",
+      "feed_url": "https://www.propertyinsurancelawobserver.com/feed/",
+      "title": "Cozen O'Connor's Property Insurance Law Observer",
+      "topic": "First-Party Property Insurance",
+      "saved": 1,
+      "validated": true
+    },
+    {
+      "source": "https://www.employmentlawnow.com",
+      "feed_url": "https://www.employmentlawnow.com/feed/",
+      "title": "Employment Law Now",
+      "topic": "Employment Law (Podcast)",
+      "saved": 1,
+      "validated": true
+    },
+    {
+      "source": "https://www.familylawfocusblog.com",
+      "feed_url": "https://www.familylawfocusblog.com/feed/",
+      "title": "Family Law Focus – Cozen O'Connor",
+      "topic": "Family Law",
+      "saved": 1,
+      "validated": true
+    },
+    {
+      "source": "https://www.getthedirtblog.com",
+      "feed_url": "https://www.getthedirtblog.com/feed/",
+      "title": "Get The Dirt",
+      "topic": "Real Estate / Zoning / Land Use (DC)",
+      "saved": 1,
+      "validated": true
+    },
+    {
+      "source": "https://www.oshachronicle.com",
+      "feed_url": "https://www.oshachronicle.com/feed/",
+      "title": "OSHA Chronicle",
+      "topic": "OSHA Enforcement",
+      "saved": 1,
+      "validated": true
+    },
+    {
+      "source": "https://www.lawyersrepresentinglawyers.com",
+      "feed_url": "https://www.lawyersrepresentinglawyers.com/feed/",
+      "title": "Lawyers Representing Lawyers",
+      "topic": "Professional Responsibility",
+      "saved": 1,
+      "validated": true
+    },
+    {
+      "source": "https://www.copublicstrategies.com",
+      "feed_url": "https://www.copublicstrategies.com/feed/",
+      "title": "Cozen O'Connor Public Strategies",
+      "topic": "Public Policy / Government Affairs",
+      "saved": 1,
+      "validated": true
+    },
+    {
+      "source": "https://www.copublicstrategies.com/beltway-briefing",
+      "feed_url": "https://www.copublicstrategies.com/feed/",
+      "title": "Beltway Briefing Podcast",
+      "topic": "Federal Politics And Policy (Podcast)",
+      "saved": 1,
+      "validated": true,
+      "notes": "Beltway Briefing podcast posts appear in the Public Strategies main RSS feed; a dedicated /beltway-briefing/feed/ resolves only to a sparse comments feed."
+    }
+  ]
+}
