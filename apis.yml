@@ -32,197 +32,42 @@ modified: '2026-05-23'
 specificationVersion: '0.19'
 kind: company
 tags:
-  - Am Law 100
-  - Corporate Law
-  - Government Affairs
-  - Insurance Law
-  - Intellectual Property
-  - Labor And Employment
-  - Law
-  - Law Firm
-  - Legal Services
-  - Litigation
-  - Lobbying
-  - Professional Services
-  - Public Strategies
-  - Real Estate
-  - Subrogation
-  - Thought Leadership
+- Am Law 100
+- Corporate Law
+- Government Affairs
+- Insurance Law
+- Intellectual Property
+- Labor And Employment
+- Law
+- Law Firm
+- Legal Services
+- Litigation
+- Lobbying
+- Professional Services
+- Public Strategies
+- Real Estate
+- Subrogation
+- Thought Leadership
 apis:
-  - aid: cozen-oconnor:website
-    name: Cozen O'Connor Public Website
-    description: >-
-      The Cozen O'Connor public website at cozen.com is the firm's primary
-      external knowledge surface, organizing attorney biographies, practice
-      and industry pages, office locations, news and publications, alerts,
-      newsletters, ancillary-business descriptions, and recruiting content.
-      The site enumerates the firm's positioning — "In an industry built on
-      talk, we've made our name by doing." — and does not expose any public
-      API, OpenAPI specification, GraphQL endpoint, or developer portal.
-      Subscription to firm publications is offered via an email signup
-      (Subscribe To Publications) rather than RSS at the corporate domain.
-    humanURL: https://www.cozen.com
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    tags:
-      - Law Firm Website
-      - Thought Leadership
-      - Attorney Directory
-    properties:
-      - type: Website
-        url: https://www.cozen.com
-      - type: About
-        url: https://www.cozen.com/about
-      - type: People
-        url: https://www.cozen.com/people
-      - type: PracticesAndIndustries
-        url: https://www.cozen.com/practices
-      - type: AncillaryBusinesses
-        url: https://www.cozen.com/practices
-      - type: NewsAndResources
-        url: https://www.cozen.com/news-resources
-      - type: BlogsAndPodcasts
-        url: https://www.cozen.com/news-resources/blogs
-      - type: FirmLeadership
-        url: https://www.cozen.com/about/firm-leadership
-      - type: Careers
-        url: https://www.cozen.com/careers
-      - type: Diversity
-        url: https://www.cozen.com/about/dei
-      - type: ProBono
-        url: https://www.cozen.com/about/pro-bono
-      - type: Contact
-        url: https://www.cozen.com/contact-us
-    x-features:
-      - Attorney And Principal Directory
-      - Practice Area Pages
-      - Industry Group Pages
-      - Office Locator
-      - Ancillary Business Catalog
-      - News, Alerts, And Publications Library
-      - Blogs And Podcasts Hub
-      - Email Subscription Signup
-      - Careers And Recruiting Portal
-    x-use-cases:
-      - Locate a Cozen O'Connor attorney by name, practice, or office
-      - Read the latest client alert or publication on a regulatory development
-      - Research the firm's ancillary businesses (Public Strategies, COSECURE, CODISCOVR, NSS, HomeBase)
-      - Apply to a summer associate or lateral attorney program
-      - Find a Cozen O'Connor office in the U.S., Canada, or U.K.
-  - aid: cozen-oconnor:public-strategies
-    name: Cozen O'Connor Public Strategies
-    description: >-
-      Cozen O'Connor Public Strategies (copublicstrategies.com) is the firm's
-      bipartisan government affairs and lobbying arm, representing
-      corporations, nonprofits, trade associations, and individuals before
-      federal, state, and local governments. Service lines include federal
-      lobbying, state and local lobbying, strategic communications and
-      reputation management, procurements/grants/loans support, policy
-      monitoring and analysis, and a national State Attorneys General
-      practice. Public Strategies maintains a primary office at 2001 M
-      Street NW, Suite 500, Washington, DC, with practitioners in major
-      state capitals. It publishes the Beltway Briefing Podcast and a
-      practice-wide WordPress site exposing a public RSS feed at
-      `/feed/`. Public Strategies does not expose a developer API; lobbying
-      activity is reportable through the Senate Lobbying Disclosure Act
-      filing system.
-    humanURL: https://www.copublicstrategies.com
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    tags:
-      - Government Affairs
-      - Lobbying
-      - Public Policy
-      - State Attorneys General
-      - Strategic Communications
-    properties:
-      - type: Website
-        url: https://www.copublicstrategies.com
-      - type: RSS
-        url: https://www.copublicstrategies.com/feed/
-      - type: BeltwayBriefingPodcast
-        url: https://www.copublicstrategies.com/beltway-briefing
-      - type: LobbyingDisclosureFilings
-        url: https://lda.senate.gov/system/public/
-    x-features:
-      - Federal Legislative Advocacy
-      - State And Local Lobbying
-      - Strategic Communications And Reputation Management
-      - Procurements, Grants, And Loans Support
-      - Policy Monitoring And Analysis
-      - National State Attorneys General Practice
-      - Beltway Briefing Podcast
-      - RSS-Backed Public Policy Insights Feed
-    x-use-cases:
-      - Engage bipartisan lobbyists on federal appropriations priorities
-      - Build a state-level coalition before AGs and legislatures
-      - Track Public Strategies policy commentary via RSS
-      - Pursue government procurement, grant, or loan opportunities
-      - Manage a regulatory or political reputation crisis
-  - aid: cozen-oconnor:blog-network
-    name: Cozen O'Connor LexBlog / WordPress Blog Network
-    description: >-
-      Cozen O'Connor publishes an unusually broad network of practice-area
-      blogs and podcasts hosted on LexBlog / WordPress infrastructure. Each
-      blog is reachable at its own domain and exposes a standard WordPress
-      RSS 2.0 feed at `/feed/`, providing a programmatic surface that the
-      corporate cozen.com domain does not. This is the closest thing to a
-      machine-readable API the firm provides, and it is what makes the firm
-      indexable by news aggregators, LLM crawlers, and downstream
-      thought-leadership pipelines. Topics span subrogation, cyber and data
-      law, health law, state attorneys general, AI and emerging tech, OSHA
-      enforcement, employment law, family law, real estate / land use,
-      property and casualty insurance coverage, and legal-profession
-      responsibility.
-    humanURL: https://www.cozen.com/news-resources/blogs
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    tags:
-      - Blogs
-      - Podcasts
-      - RSS
-      - Thought Leadership
-      - LexBlog
-    properties:
-      - type: BlogIndex
-        url: https://www.cozen.com/news-resources/blogs
-      - type: RSS
-        url: https://www.cyberlawmonitor.com/feed/
-      - type: RSS
-        url: https://www.stateagreport.com/feed/
-      - type: RSS
-        url: https://www.subrogationrecoverylawblog.com/feed/
-      - type: RSS
-        url: https://www.transformativeailegalleaps.com/feed/
-      - type: RSS
-        url: https://www.nobadfaith.com/feed/
-      - type: RSS
-        url: https://www.casualtycoveragechronicle.com/feed/
-      - type: RSS
-        url: https://www.employmentlawnow.com/feed/
-      - type: RSS
-        url: https://www.familylawfocusblog.com/feed/
-      - type: RSS
-        url: https://www.getthedirtblog.com/feed/
-      - type: RSS
-        url: https://www.healthlawinformer.com/feed/
-      - type: RSS
-        url: https://www.lawyersrepresentinglawyers.com/feed/
-      - type: RSS
-        url: https://www.oshachronicle.com/feed/
-      - type: RSS
-        url: https://www.propertyinsurancelawobserver.com/feed/
-      - type: RSS
-        url: https://www.copublicstrategies.com/feed/
-    x-features:
-      - 14 Validated WordPress RSS Feeds
-      - Practice-Area-Specialized Blogs
-      - Podcast Distribution
-      - Cross-Office Editorial Contribution
-      - LexBlog-Hosted Infrastructure
-    x-use-cases:
-      - Subscribe to a practice-area blog via RSS instead of email
-      - Aggregate Cozen O'Connor thought leadership into a news pipeline
-      - Track subrogation, AI, and state AG developments programmatically
-      - Cite firm insights in downstream legal-tech / LLM workflows
-common:
+- aid: cozen-oconnor:website
+  name: Cozen O'Connor Public Website
+  description: >-
+    The Cozen O'Connor public website at cozen.com is the firm's primary
+    external knowledge surface, organizing attorney biographies, practice
+    and industry pages, office locations, news and publications, alerts,
+    newsletters, ancillary-business descriptions, and recruiting content.
+    The site enumerates the firm's positioning — "In an industry built on
+    talk, we've made our name by doing." — and does not expose any public
+    API, OpenAPI specification, GraphQL endpoint, or developer portal.
+    Subscription to firm publications is offered via an email signup
+    (Subscribe To Publications) rather than RSS at the corporate domain.
+  humanURL: https://www.cozen.com
+  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  tags:
+  - Law Firm Website
+  - Thought Leadership
+  - Attorney Directory
+  properties:
   - type: Website
     url: https://www.cozen.com
   - type: About
@@ -231,14 +76,14 @@ common:
     url: https://www.cozen.com/people
   - type: PracticesAndIndustries
     url: https://www.cozen.com/practices
-  - type: FirmLeadership
-    url: https://www.cozen.com/about/firm-leadership
+  - type: AncillaryBusinesses
+    url: https://www.cozen.com/practices
   - type: NewsAndResources
     url: https://www.cozen.com/news-resources
   - type: BlogsAndPodcasts
     url: https://www.cozen.com/news-resources/blogs
-  - type: PublicStrategies
-    url: https://www.copublicstrategies.com
+  - type: FirmLeadership
+    url: https://www.cozen.com/about/firm-leadership
   - type: Careers
     url: https://www.cozen.com/careers
   - type: Diversity
@@ -247,134 +92,291 @@ common:
     url: https://www.cozen.com/about/pro-bono
   - type: Contact
     url: https://www.cozen.com/contact-us
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/cozen-o'connor
-  - type: WikipediaPage
-    url: https://en.wikipedia.org/wiki/Cozen_O%27Connor
-x-practice-areas:
-  - Litigation
-  - Subrogation And Recovery
-  - Global Insurance
-  - Corporate, M&A, And Securities
-  - Intellectual Property
-  - Real Estate
-  - Labor And Employment
-  - Class Actions
-  - Cybersecurity And Data Privacy
-  - Technology, Privacy, And Data Security
-  - Healthcare And Life Sciences
-  - Government Relations And Public Policy
-  - Family Law
-  - Tax
-  - Construction
-  - Bankruptcy, Insolvency, And Restructuring
-  - White Collar Defense
-  - Appellate
-  - Professional Responsibility
+  - url: graphql/cozen-oconnor-graphql.md
+    type: GraphQL
+  x-features:
+  - Attorney And Principal Directory
+  - Practice Area Pages
+  - Industry Group Pages
+  - Office Locator
+  - Ancillary Business Catalog
+  - News, Alerts, And Publications Library
+  - Blogs And Podcasts Hub
+  - Email Subscription Signup
+  - Careers And Recruiting Portal
+  x-use-cases:
+  - Locate a Cozen O'Connor attorney by name, practice, or office
+  - Read the latest client alert or publication on a regulatory development
+  - Research the firm's ancillary businesses (Public Strategies, COSECURE, CODISCOVR, NSS, HomeBase)
+  - Apply to a summer associate or lateral attorney program
+  - Find a Cozen O'Connor office in the U.S., Canada, or U.K.
+- aid: cozen-oconnor:public-strategies
+  name: Cozen O'Connor Public Strategies
+  description: >-
+    Cozen O'Connor Public Strategies (copublicstrategies.com) is the firm's
+    bipartisan government affairs and lobbying arm, representing
+    corporations, nonprofits, trade associations, and individuals before
+    federal, state, and local governments. Service lines include federal
+    lobbying, state and local lobbying, strategic communications and
+    reputation management, procurements/grants/loans support, policy
+    monitoring and analysis, and a national State Attorneys General
+    practice. Public Strategies maintains a primary office at 2001 M
+    Street NW, Suite 500, Washington, DC, with practitioners in major
+    state capitals. It publishes the Beltway Briefing Podcast and a
+    practice-wide WordPress site exposing a public RSS feed at
+    `/feed/`. Public Strategies does not expose a developer API; lobbying
+    activity is reportable through the Senate Lobbying Disclosure Act
+    filing system.
+  humanURL: https://www.copublicstrategies.com
+  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  tags:
+  - Government Affairs
+  - Lobbying
+  - Public Policy
   - State Attorneys General
-x-industries:
-  - Insurance
-  - Healthcare And Life Sciences
-  - Energy
-  - Real Estate
-  - Technology
-  - Financial Services
-  - Hospitality
-  - Education
-  - Communications
-  - Infrastructure
-  - Entertainment
-  - Trade
-  - Retail And Consumer Products
-  - Cannabis
-  - Transportation
-x-ancillary-businesses:
-  - name: Cozen O'Connor Public Strategies
-    description: Bipartisan federal, state, and local government affairs and lobbying.
+  - Strategic Communications
+  properties:
+  - type: Website
     url: https://www.copublicstrategies.com
-  - name: National Subrogation Services
-    description: Outsourced subrogation recovery operations supporting carrier clients.
-  - name: COSECURE
-    description: Security risk consulting, investigations, and corporate intelligence.
-  - name: CODISCOVR
-    description: Discovery management, e-discovery, and legal technology services.
-  - name: HomeBase
-    description: Family-office advisory and household administration services.
-x-blogs-and-podcasts:
-  - name: Subrogation & Recovery Law Blog
-    url: https://www.subrogationrecoverylawblog.com
-    feed: https://www.subrogationrecoverylawblog.com/feed/
-    topic: Subrogation And Recovery
-  - name: Subro on the Go Podcast
-    url: https://www.subrogationrecoverylawblog.com/category/subro-on-the-go-podcast
-    feed: https://www.subrogationrecoverylawblog.com/feed/
-    topic: Subrogation Podcast
-  - name: Cyber Law Monitor
-    url: https://www.cyberlawmonitor.com
-    feed: https://www.cyberlawmonitor.com/feed/
-    topic: Cybersecurity And Data Privacy
-  - name: Transformative AI Legal Leaps
-    url: https://www.transformativeailegalleaps.com
-    feed: https://www.transformativeailegalleaps.com/feed/
-    topic: AI Law
-  - name: The State AG Report
-    url: https://www.stateagreport.com
-    feed: https://www.stateagreport.com/feed/
-    topic: State Attorneys General
-  - name: State AG Pulse Podcast
-    url: https://www.stateagreport.com/podcasts
-    feed: https://www.stateagreport.com/feed/
-    topic: State AG Podcast
-  - name: Health Law Informer
-    url: https://www.healthlawinformer.com
-    feed: https://www.healthlawinformer.com/feed/
-    topic: Healthcare Law
-  - name: Avoiding Insurance Bad Faith
-    url: https://www.nobadfaith.com
-    feed: https://www.nobadfaith.com/feed/
-    topic: Insurance Bad Faith
-  - name: Casualty Coverage Chronicle
-    url: https://www.casualtycoveragechronicle.com
-    feed: https://www.casualtycoveragechronicle.com/feed/
-    topic: Casualty Insurance Coverage
-  - name: Property Insurance Law Observer
-    url: https://www.propertyinsurancelawobserver.com
-    feed: https://www.propertyinsurancelawobserver.com/feed/
-    topic: First-Party Property Insurance
-  - name: Employment Law Now Podcast
-    url: https://www.employmentlawnow.com
-    feed: https://www.employmentlawnow.com/feed/
-    topic: Employment Law
-  - name: Family Law Focus
-    url: https://www.familylawfocusblog.com
-    feed: https://www.familylawfocusblog.com/feed/
-    topic: Family Law
-  - name: Get the Dirt
-    url: https://www.getthedirtblog.com
-    feed: https://www.getthedirtblog.com/feed/
-    topic: Real Estate, Zoning, Land Use (DC)
-  - name: OSHA Chronicle
-    url: https://www.oshachronicle.com
-    feed: https://www.oshachronicle.com/feed/
-    topic: OSHA Enforcement
-  - name: Lawyers Representing Lawyers
-    url: https://www.lawyersrepresentinglawyers.com
-    feed: https://www.lawyersrepresentinglawyers.com/feed/
-    topic: Professional Responsibility
-  - name: Beltway Briefing Podcast
+  - type: RSS
+    url: https://www.copublicstrategies.com/feed/
+  - type: BeltwayBriefingPodcast
     url: https://www.copublicstrategies.com/beltway-briefing
-    feed: https://www.copublicstrategies.com/feed/
-    topic: Federal Politics And Policy
-  - name: Cozen O'Connor Public Strategies (Main Feed)
-    url: https://www.copublicstrategies.com
-    feed: https://www.copublicstrategies.com/feed/
-    topic: Public Policy
+  - type: LobbyingDisclosureFilings
+    url: https://lda.senate.gov/system/public/
+  x-features:
+  - Federal Legislative Advocacy
+  - State And Local Lobbying
+  - Strategic Communications And Reputation Management
+  - Procurements, Grants, And Loans Support
+  - Policy Monitoring And Analysis
+  - National State Attorneys General Practice
+  - Beltway Briefing Podcast
+  - RSS-Backed Public Policy Insights Feed
+  x-use-cases:
+  - Engage bipartisan lobbyists on federal appropriations priorities
+  - Build a state-level coalition before AGs and legislatures
+  - Track Public Strategies policy commentary via RSS
+  - Pursue government procurement, grant, or loan opportunities
+  - Manage a regulatory or political reputation crisis
+- aid: cozen-oconnor:blog-network
+  name: Cozen O'Connor LexBlog / WordPress Blog Network
+  description: >-
+    Cozen O'Connor publishes an unusually broad network of practice-area
+    blogs and podcasts hosted on LexBlog / WordPress infrastructure. Each
+    blog is reachable at its own domain and exposes a standard WordPress
+    RSS 2.0 feed at `/feed/`, providing a programmatic surface that the
+    corporate cozen.com domain does not. This is the closest thing to a
+    machine-readable API the firm provides, and it is what makes the firm
+    indexable by news aggregators, LLM crawlers, and downstream
+    thought-leadership pipelines. Topics span subrogation, cyber and data
+    law, health law, state attorneys general, AI and emerging tech, OSHA
+    enforcement, employment law, family law, real estate / land use,
+    property and casualty insurance coverage, and legal-profession
+    responsibility.
+  humanURL: https://www.cozen.com/news-resources/blogs
+  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  tags:
+  - Blogs
+  - Podcasts
+  - RSS
+  - Thought Leadership
+  - LexBlog
+  properties:
+  - type: BlogIndex
+    url: https://www.cozen.com/news-resources/blogs
+  - type: RSS
+    url: https://www.cyberlawmonitor.com/feed/
+  - type: RSS
+    url: https://www.stateagreport.com/feed/
+  - type: RSS
+    url: https://www.subrogationrecoverylawblog.com/feed/
+  - type: RSS
+    url: https://www.transformativeailegalleaps.com/feed/
+  - type: RSS
+    url: https://www.nobadfaith.com/feed/
+  - type: RSS
+    url: https://www.casualtycoveragechronicle.com/feed/
+  - type: RSS
+    url: https://www.employmentlawnow.com/feed/
+  - type: RSS
+    url: https://www.familylawfocusblog.com/feed/
+  - type: RSS
+    url: https://www.getthedirtblog.com/feed/
+  - type: RSS
+    url: https://www.healthlawinformer.com/feed/
+  - type: RSS
+    url: https://www.lawyersrepresentinglawyers.com/feed/
+  - type: RSS
+    url: https://www.oshachronicle.com/feed/
+  - type: RSS
+    url: https://www.propertyinsurancelawobserver.com/feed/
+  - type: RSS
+    url: https://www.copublicstrategies.com/feed/
+  x-features:
+  - 14 Validated WordPress RSS Feeds
+  - Practice-Area-Specialized Blogs
+  - Podcast Distribution
+  - Cross-Office Editorial Contribution
+  - LexBlog-Hosted Infrastructure
+  x-use-cases:
+  - Subscribe to a practice-area blog via RSS instead of email
+  - Aggregate Cozen O'Connor thought leadership into a news pipeline
+  - Track subrogation, AI, and state AG developments programmatically
+  - Cite firm insights in downstream legal-tech / LLM workflows
+common:
+- type: Website
+  url: https://www.cozen.com
+- type: About
+  url: https://www.cozen.com/about
+- type: People
+  url: https://www.cozen.com/people
+- type: PracticesAndIndustries
+  url: https://www.cozen.com/practices
+- type: FirmLeadership
+  url: https://www.cozen.com/about/firm-leadership
+- type: NewsAndResources
+  url: https://www.cozen.com/news-resources
+- type: BlogsAndPodcasts
+  url: https://www.cozen.com/news-resources/blogs
+- type: PublicStrategies
+  url: https://www.copublicstrategies.com
+- type: Careers
+  url: https://www.cozen.com/careers
+- type: Diversity
+  url: https://www.cozen.com/about/dei
+- type: ProBono
+  url: https://www.cozen.com/about/pro-bono
+- type: Contact
+  url: https://www.cozen.com/contact-us
+- type: LinkedIn
+  url: https://www.linkedin.com/company/cozen-o'connor
+- type: WikipediaPage
+  url: https://en.wikipedia.org/wiki/Cozen_O%27Connor
+x-practice-areas:
+- Litigation
+- Subrogation And Recovery
+- Global Insurance
+- Corporate, M&A, And Securities
+- Intellectual Property
+- Real Estate
+- Labor And Employment
+- Class Actions
+- Cybersecurity And Data Privacy
+- Technology, Privacy, And Data Security
+- Healthcare And Life Sciences
+- Government Relations And Public Policy
+- Family Law
+- Tax
+- Construction
+- Bankruptcy, Insolvency, And Restructuring
+- White Collar Defense
+- Appellate
+- Professional Responsibility
+- State Attorneys General
+x-industries:
+- Insurance
+- Healthcare And Life Sciences
+- Energy
+- Real Estate
+- Technology
+- Financial Services
+- Hospitality
+- Education
+- Communications
+- Infrastructure
+- Entertainment
+- Trade
+- Retail And Consumer Products
+- Cannabis
+- Transportation
+x-ancillary-businesses:
+- name: Cozen O'Connor Public Strategies
+  description: Bipartisan federal, state, and local government affairs and lobbying.
+  url: https://www.copublicstrategies.com
+- name: National Subrogation Services
+  description: Outsourced subrogation recovery operations supporting carrier clients.
+- name: COSECURE
+  description: Security risk consulting, investigations, and corporate intelligence.
+- name: CODISCOVR
+  description: Discovery management, e-discovery, and legal technology services.
+- name: HomeBase
+  description: Family-office advisory and household administration services.
+x-blogs-and-podcasts:
+- name: Subrogation & Recovery Law Blog
+  url: https://www.subrogationrecoverylawblog.com
+  feed: https://www.subrogationrecoverylawblog.com/feed/
+  topic: Subrogation And Recovery
+- name: Subro on the Go Podcast
+  url: https://www.subrogationrecoverylawblog.com/category/subro-on-the-go-podcast
+  feed: https://www.subrogationrecoverylawblog.com/feed/
+  topic: Subrogation Podcast
+- name: Cyber Law Monitor
+  url: https://www.cyberlawmonitor.com
+  feed: https://www.cyberlawmonitor.com/feed/
+  topic: Cybersecurity And Data Privacy
+- name: Transformative AI Legal Leaps
+  url: https://www.transformativeailegalleaps.com
+  feed: https://www.transformativeailegalleaps.com/feed/
+  topic: AI Law
+- name: The State AG Report
+  url: https://www.stateagreport.com
+  feed: https://www.stateagreport.com/feed/
+  topic: State Attorneys General
+- name: State AG Pulse Podcast
+  url: https://www.stateagreport.com/podcasts
+  feed: https://www.stateagreport.com/feed/
+  topic: State AG Podcast
+- name: Health Law Informer
+  url: https://www.healthlawinformer.com
+  feed: https://www.healthlawinformer.com/feed/
+  topic: Healthcare Law
+- name: Avoiding Insurance Bad Faith
+  url: https://www.nobadfaith.com
+  feed: https://www.nobadfaith.com/feed/
+  topic: Insurance Bad Faith
+- name: Casualty Coverage Chronicle
+  url: https://www.casualtycoveragechronicle.com
+  feed: https://www.casualtycoveragechronicle.com/feed/
+  topic: Casualty Insurance Coverage
+- name: Property Insurance Law Observer
+  url: https://www.propertyinsurancelawobserver.com
+  feed: https://www.propertyinsurancelawobserver.com/feed/
+  topic: First-Party Property Insurance
+- name: Employment Law Now Podcast
+  url: https://www.employmentlawnow.com
+  feed: https://www.employmentlawnow.com/feed/
+  topic: Employment Law
+- name: Family Law Focus
+  url: https://www.familylawfocusblog.com
+  feed: https://www.familylawfocusblog.com/feed/
+  topic: Family Law
+- name: Get the Dirt
+  url: https://www.getthedirtblog.com
+  feed: https://www.getthedirtblog.com/feed/
+  topic: Real Estate, Zoning, Land Use (DC)
+- name: OSHA Chronicle
+  url: https://www.oshachronicle.com
+  feed: https://www.oshachronicle.com/feed/
+  topic: OSHA Enforcement
+- name: Lawyers Representing Lawyers
+  url: https://www.lawyersrepresentinglawyers.com
+  feed: https://www.lawyersrepresentinglawyers.com/feed/
+  topic: Professional Responsibility
+- name: Beltway Briefing Podcast
+  url: https://www.copublicstrategies.com/beltway-briefing
+  feed: https://www.copublicstrategies.com/feed/
+  topic: Federal Politics And Policy
+- name: Cozen O'Connor Public Strategies (Main Feed)
+  url: https://www.copublicstrategies.com
+  feed: https://www.copublicstrategies.com/feed/
+  topic: Public Policy
 x-offices-overview:
   total_offices_text: "33 cities across North America and Europe"
   regions:
-    - United States
-    - Canada
-    - United Kingdom
+  - United States
+  - Canada
+  - United Kingdom
   dc_address: "2001 M Street NW, Suite 500, Washington, DC (Cozen O'Connor Public Strategies)"
 x-firm-profile:
   founded: 1970
@@ -389,13 +391,13 @@ x-firm-profile:
   chief_operating_officer: David W. Ellman
   positioning_quote: "In an industry built on talk, we've made our name by doing."
   notable_strengths:
-    - Subrogation And Recovery
-    - Global Insurance
-    - Government Relations / Public Strategies
-    - Labor And Employment
-    - State Attorneys General Practice
-    - Cybersecurity And Data Privacy
-    - Healthcare And Life Sciences
+  - Subrogation And Recovery
+  - Global Insurance
+  - Government Relations / Public Strategies
+  - Labor And Employment
+  - State Attorneys General Practice
+  - Cybersecurity And Data Privacy
+  - Healthcare And Life Sciences
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
