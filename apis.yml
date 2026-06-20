@@ -23,7 +23,7 @@ description: >-
 type: Index
 position: Consumer
 access: 3rd-Party
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: >-
   https://raw.githubusercontent.com/api-evangelist/cozen-oconnor/refs/heads/main/apis.yml
 humanURL: https://www.cozen.com
@@ -62,7 +62,7 @@ apis:
     Subscription to firm publications is offered via an email signup
     (Subscribe To Publications) rather than RSS at the corporate domain.
   humanURL: https://www.cozen.com
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   tags:
   - Law Firm Website
   - Thought Leadership
@@ -128,7 +128,7 @@ apis:
     activity is reportable through the Senate Lobbying Disclosure Act
     filing system.
   humanURL: https://www.copublicstrategies.com
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   tags:
   - Government Affairs
   - Lobbying
@@ -175,7 +175,7 @@ apis:
     property and casualty insurance coverage, and legal-profession
     responsibility.
   humanURL: https://www.cozen.com/news-resources/blogs
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   tags:
   - Blogs
   - Podcasts
