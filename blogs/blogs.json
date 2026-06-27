@@ -7,7 +7,7 @@
       "source": "https://www.subrogationrecoverylawblog.com/feed/",
       "feed_url": "https://www.subrogationrecoverylawblog.com/feed/",
       "title": "",
-      "saved": 2,
+      "saved": 1,
       "method": "feed"
     },
     {
@@ -28,7 +28,7 @@
       "source": "https://www.stateagreport.com/feed/",
       "feed_url": "https://www.stateagreport.com/feed/",
       "title": "",
-      "saved": 7,
+      "saved": 6,
       "method": "feed"
     },
     {
@@ -42,7 +42,7 @@
       "source": "https://www.nobadfaith.com/feed/",
       "feed_url": "https://www.nobadfaith.com/feed/",
       "title": "",
-      "saved": 0,
+      "saved": 1,
       "method": "feed"
     },
     {
@@ -56,7 +56,7 @@
       "source": "https://www.propertyinsurancelawobserver.com/feed/",
       "feed_url": "https://www.propertyinsurancelawobserver.com/feed/",
       "title": "",
-      "saved": 1,
+      "saved": 0,
       "method": "feed"
     },
     {
@@ -98,7 +98,7 @@
       "source": "https://www.copublicstrategies.com/feed/",
       "feed_url": "https://www.copublicstrategies.com/feed/",
       "title": "",
-      "saved": 6,
+      "saved": 9,
       "method": "feed"
     },
     {
@@ -109,11 +109,11 @@
       "method": "none"
     },
     {
-      "source": "https://www.copublicstrategies.com",
+      "source": "https://copublicstrategies.com/feed/",
       "feed_url": "https://copublicstrategies.com/feed/",
       "title": "",
       "saved": 0,
-      "method": "discovered"
+      "method": "feed"
     },
     {
       "source": "https://lda.senate.gov/system/public/",
@@ -128,8 +128,15 @@
       "title": "",
       "saved": 0,
       "method": "none"
+    },
+    {
+      "source": "https://www.copublicstrategies.com",
+      "feed_url": "https://copublicstrategies.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
     }
   ],
-  "post_count": 161,
-  "fetched": "2026-06-14T20:42:17Z"
+  "post_count": 195,
+  "fetched": "2026-06-27T12:03:07Z"
 }
