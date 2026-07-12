@@ -225,6 +225,8 @@ apis:
   - Track subrogation, AI, and state AG developments programmatically
   - Cite firm insights in downstream legal-tech / LLM workflows
 common:
+- type: DomainSecurity
+  url: security/cozen-oconnor-domain-security.yml
 - type: Website
   url: https://www.cozen.com
 - type: About
