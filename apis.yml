@@ -56,6 +56,23 @@ tags:
 - Lobbying
 - Professional Services
 - Public Strategies
+- Real-Estate
+- Subrogation
+- Thought Leadership
+tags_raw:
+- Am Law 100
+- Corporate Law
+- Government Affairs
+- Insurance Law
+- Intellectual Property
+- Labor And Employment
+- Law
+- Law Firm
+- Legal Services
+- Litigation
+- Lobbying
+- Professional Services
+- Public Strategies
 - Real Estate
 - Subrogation
 - Thought Leadership
@@ -188,6 +205,12 @@ apis:
   humanURL: https://www.cozen.com/news-resources/blogs
   image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   tags:
+  - Blog
+  - Podcasts
+  - RSS
+  - Thought Leadership
+  - LexBlog
+  tags_raw:
   - Blogs
   - Podcasts
   - RSS
