@@ -116,10 +116,6 @@
       "method": "feed"
     },
     {
-      "source": "https://lda.senate.gov/system/public/",
-      "error": "HTTPError"
-    },
-    {
       "source": "https://www.cozen.com/news-resources/blogs",
       "feed_url": "https://www.cozen.com/news-resources/blogs",
       "title": "",
@@ -132,8 +128,15 @@
       "title": "",
       "saved": 0,
       "method": "discovered"
+    },
+    {
+      "source": "https://lda.senate.gov/system/public/",
+      "feed_url": "https://lda.senate.gov/system/public/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
-  "post_count": 285,
-  "fetched": "2026-08-15T12:22:01Z"
+  "post_count": 298,
+  "fetched": "2026-08-22T20:20:02Z"
 }
