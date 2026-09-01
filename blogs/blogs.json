@@ -1,7 +1,7 @@
 {
   "repo": "cozen-oconnor",
   "discovered": "2026-05-23",
-  "notes": "Cozen O'Connor's corporate domain (cozen.com) does not expose a public RSS feed; subscription is via email signup. However, the firm's LexBlog/WordPress-hosted practice-area blog network \u2014 14 distinct properties, each on its own domain \u2014 exposes standard WordPress RSS 2.0 feeds at /feed/. Each feed below was fetched and validated as well-formed RSS 2.0. Two podcast properties (Subro on the Go, State AG Pulse) are categorized under their parent blog feeds.",
+  "notes": "Cozen O'Connor's corporate domain (cozen.com) does not expose a public RSS feed; subscription is via email signup. However, the firm's LexBlog/WordPress-hosted practice-area blog network — 14 distinct properties, each on its own domain — exposes standard WordPress RSS 2.0 feeds at /feed/. Each feed below was fetched and validated as well-formed RSS 2.0. Two podcast properties (Subro on the Go, State AG Pulse) are categorized under their parent blog feeds.",
   "feeds": [
     {
       "source": "https://www.subrogationrecoverylawblog.com/feed/",
@@ -15,7 +15,9 @@
       "feed_url": "https://www.cyberlawmonitor.com/feed/",
       "title": "",
       "saved": 0,
-      "method": "feed"
+      "method": "feed",
+      "nature": "undetermined",
+      "nature_basis": null
     },
     {
       "source": "https://www.transformativeailegalleaps.com/feed/",
@@ -36,7 +38,9 @@
       "feed_url": "https://www.healthlawinformer.com/feed/",
       "title": "",
       "saved": 0,
-      "method": "feed"
+      "method": "feed",
+      "nature": "undetermined",
+      "nature_basis": null
     },
     {
       "source": "https://www.nobadfaith.com/feed/",
@@ -50,7 +54,9 @@
       "feed_url": "https://www.casualtycoveragechronicle.com/feed/",
       "title": "",
       "saved": 0,
-      "method": "feed"
+      "method": "feed",
+      "nature": "undetermined",
+      "nature_basis": null
     },
     {
       "source": "https://www.propertyinsurancelawobserver.com/feed/",
@@ -71,14 +77,18 @@
       "feed_url": "https://www.familylawfocusblog.com/feed/",
       "title": "",
       "saved": 0,
-      "method": "feed"
+      "method": "feed",
+      "nature": "undetermined",
+      "nature_basis": null
     },
     {
       "source": "https://www.getthedirtblog.com/feed/",
       "feed_url": "https://www.getthedirtblog.com/feed/",
       "title": "",
       "saved": 0,
-      "method": "feed"
+      "method": "feed",
+      "nature": "undetermined",
+      "nature_basis": null
     },
     {
       "source": "https://www.oshachronicle.com/feed/",
@@ -92,7 +102,9 @@
       "feed_url": "https://www.lawyersrepresentinglawyers.com/feed/",
       "title": "",
       "saved": 0,
-      "method": "feed"
+      "method": "feed",
+      "nature": "undetermined",
+      "nature_basis": null
     },
     {
       "source": "https://www.copublicstrategies.com/feed/",
@@ -138,5 +150,8 @@
     }
   ],
   "post_count": 314,
-  "fetched": "2026-08-30T22:33:40Z"
+  "fetched": "2026-08-30T22:33:40Z",
+  "feed_nature": "undetermined",
+  "feed_nature_basis": null,
+  "feed_nature_note": "Whether these posts are the vendor publishing or its support community, decided on the URL path grammar of the saved posts -- not the hostname, which carries both on Khoros, and not author diversity, which flags large vendor blogs as forums. 'undetermined' means undetermined."
 }
