@@ -1,27 +1,39 @@
 {
   "repo": "cozen-oconnor",
   "discovered": "2026-05-23",
-  "notes": "Cozen O'Connor's corporate domain (cozen.com) does not expose a public RSS feed; subscription is via email signup. However, the firm's LexBlog/WordPress-hosted practice-area blog network — 14 distinct properties, each on its own domain — exposes standard WordPress RSS 2.0 feeds at /feed/. Each feed below was fetched and validated as well-formed RSS 2.0. Two podcast properties (Subro on the Go, State AG Pulse) are categorized under their parent blog feeds.",
+  "notes": "Cozen O'Connor's corporate domain (cozen.com) does not expose a public RSS feed; subscription is via email signup. However, the firm's LexBlog/WordPress-hosted practice-area blog network \u2014 14 distinct properties, each on its own domain \u2014 exposes standard WordPress RSS 2.0 feeds at /feed/. Each feed below was fetched and validated as well-formed RSS 2.0. Two podcast properties (Subro on the Go, State AG Pulse) are categorized under their parent blog feeds.",
   "feeds": [
     {
-      "source": "https://www.subrogationrecoverylawblog.com/feed/",
-      "feed_url": "https://www.subrogationrecoverylawblog.com/feed/",
+      "source": "https://www.cozen.com/news-resources/blogs",
+      "feed_url": "https://www.cozen.com/news-resources/blogs",
       "title": "",
       "saved": 0,
-      "method": "feed"
+      "method": "none"
+    },
+    {
+      "source": "https://www.cozen.com/news-resources",
+      "feed_url": "https://www.cozen.com/news-resources",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://www.copublicstrategies.com",
+      "feed_url": "https://www.copublicstrategies.com/blog/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://lda.senate.gov/system/public/",
+      "feed_url": "https://lda.senate.gov/system/public/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     },
     {
       "source": "https://www.cyberlawmonitor.com/feed/",
       "feed_url": "https://www.cyberlawmonitor.com/feed/",
-      "title": "",
-      "saved": 0,
-      "method": "feed",
-      "nature": "undetermined",
-      "nature_basis": null
-    },
-    {
-      "source": "https://www.transformativeailegalleaps.com/feed/",
-      "feed_url": "https://www.transformativeailegalleaps.com/feed/",
       "title": "",
       "saved": 0,
       "method": "feed"
@@ -34,13 +46,18 @@
       "method": "feed"
     },
     {
-      "source": "https://www.healthlawinformer.com/feed/",
-      "feed_url": "https://www.healthlawinformer.com/feed/",
+      "source": "https://www.subrogationrecoverylawblog.com/feed/",
+      "feed_url": "https://www.subrogationrecoverylawblog.com/feed/",
       "title": "",
       "saved": 0,
-      "method": "feed",
-      "nature": "undetermined",
-      "nature_basis": null
+      "method": "feed"
+    },
+    {
+      "source": "https://www.transformativeailegalleaps.com/feed/",
+      "feed_url": "https://www.transformativeailegalleaps.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
     },
     {
       "source": "https://www.nobadfaith.com/feed/",
@@ -52,15 +69,6 @@
     {
       "source": "https://www.casualtycoveragechronicle.com/feed/",
       "feed_url": "https://www.casualtycoveragechronicle.com/feed/",
-      "title": "",
-      "saved": 0,
-      "method": "feed",
-      "nature": "undetermined",
-      "nature_basis": null
-    },
-    {
-      "source": "https://www.propertyinsurancelawobserver.com/feed/",
-      "feed_url": "https://www.propertyinsurancelawobserver.com/feed/",
       "title": "",
       "saved": 0,
       "method": "feed"
@@ -77,22 +85,18 @@
       "feed_url": "https://www.familylawfocusblog.com/feed/",
       "title": "",
       "saved": 0,
-      "method": "feed",
-      "nature": "undetermined",
-      "nature_basis": null
+      "method": "feed"
     },
     {
       "source": "https://www.getthedirtblog.com/feed/",
       "feed_url": "https://www.getthedirtblog.com/feed/",
       "title": "",
       "saved": 0,
-      "method": "feed",
-      "nature": "undetermined",
-      "nature_basis": null
+      "method": "feed"
     },
     {
-      "source": "https://www.oshachronicle.com/feed/",
-      "feed_url": "https://www.oshachronicle.com/feed/",
+      "source": "https://www.healthlawinformer.com/feed/",
+      "feed_url": "https://www.healthlawinformer.com/feed/",
       "title": "",
       "saved": 0,
       "method": "feed"
@@ -102,9 +106,21 @@
       "feed_url": "https://www.lawyersrepresentinglawyers.com/feed/",
       "title": "",
       "saved": 0,
-      "method": "feed",
-      "nature": "undetermined",
-      "nature_basis": null
+      "method": "feed"
+    },
+    {
+      "source": "https://www.oshachronicle.com/feed/",
+      "feed_url": "https://www.oshachronicle.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.propertyinsurancelawobserver.com/feed/",
+      "feed_url": "https://www.propertyinsurancelawobserver.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
     },
     {
       "source": "https://www.copublicstrategies.com/feed/",
@@ -114,43 +130,15 @@
       "method": "feed"
     },
     {
-      "source": "https://www.cozen.com/news-resources",
-      "feed_url": "https://www.cozen.com/news-resources",
-      "title": "",
-      "saved": 0,
-      "method": "none"
-    },
-    {
       "source": "https://copublicstrategies.com/feed/",
       "feed_url": "https://copublicstrategies.com/feed/",
       "title": "",
       "saved": 0,
       "method": "feed"
-    },
-    {
-      "source": "https://www.cozen.com/news-resources/blogs",
-      "feed_url": "https://www.cozen.com/news-resources/blogs",
-      "title": "",
-      "saved": 0,
-      "method": "none"
-    },
-    {
-      "source": "https://lda.senate.gov/system/public/",
-      "feed_url": "https://lda.senate.gov/system/public/",
-      "title": "",
-      "saved": 0,
-      "method": "none"
-    },
-    {
-      "source": "https://www.copublicstrategies.com",
-      "feed_url": "https://copublicstrategies.com/feed/",
-      "title": "",
-      "saved": 0,
-      "method": "discovered"
     }
   ],
-  "post_count": 314,
-  "fetched": "2026-08-30T22:33:40Z",
+  "post_count": 330,
+  "fetched": "2026-09-06T19:17:18Z",
   "feed_nature": "undetermined",
   "feed_nature_basis": null,
   "feed_nature_note": "Whether these posts are the vendor publishing or its support community, decided on the URL path grammar of the saved posts -- not the hostname, which carries both on Khoros, and not author diversity, which flags large vendor blogs as forums. 'undetermined' means undetermined."
