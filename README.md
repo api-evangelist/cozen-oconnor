@@ -1,4 +1,4 @@
-# Cozen O'Connor (cozen-oconnor)
+# Cozen O'Connor
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,182 +64,91 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Cozen O'Connor is a full-service U.S. law firm founded in 1970 and headquartered in Philadelphia, with more than 1,000 attorneys across 33+ offices in the United States, Canada, and the United Kingdom. The firm is ranked among the top 100 law firms in America and is best known for its nationally recognized subrogation, insurance, labor and employment, global corporate, intellectual property, and government relations practices. Cozen O'Connor Public Strategies, the firm's bipartisan federal, state, and local government affairs and lobbying arm, operates from Washington, D.C. The firm publishes an unusually broad network of LexBlog/WordPress-powered practice-area blogs and podcasts — each of which exposes a standard `/feed/` RSS endpoint — making it programmatically indexable even though the corporate cozen.com domain itself does not. Cozen O'Connor does not operate a public developer program, REST/GraphQL API, SDK ecosystem, or GitHub organization; this profile catalogs the firm's public-facing knowledge surface (practice pages, attorneys, ancillary businesses, lobbying arm, blog/podcast RSS network) rather than a developer platform.
+Cozen O'Connor is a full-service U.S. law firm founded in 1970 and headquartered in Philadelphia, with more than 1,000 attorneys across 33+ offices in the United States, Canada, and the United Kingdom. The firm is ranked among the top 100 law firms in America and is best known for its nationally recognized subrogation, insurance, labor and employment, global corporate, intellectual property, and government relations practices. Cozen O'Connor Public Strategies, the firm's bipartisan federal, state, and local government affairs and lobbying arm, operates from Washington, D.C. and major state capitals. The firm operates an unusually broad thought-leadership network of LexBlog/WordPress-powered blogs and podcasts (subrogation, cyber law, health law, state AGs, transformative AI, OSHA, employment law, family law, property insurance, casualty coverage, real estate / land use, professional responsibility, and a Public Strategies feed), each of which exposes a standard `/feed/` RSS endpoint. Cozen O'Connor does not operate a public developer program, REST/GraphQL API, SDK ecosystem, or GitHub organization. This profile catalogs the firm's public-facing knowledge surface — practice and industry pages, attorney directory, ancillary businesses, lobbying arm, and the blog/podcast RSS network — rather than a developer platform.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/cozen-oconnor/refs/heads/main/apis.yml)
-**Human URL:** [https://www.cozen.com](https://www.cozen.com)
+**Areas:** Am Law 100 · Corporate Law · Government Affairs · Insurance Law · Intellectual Property · Labor And Employment · Law · Law Firms · Legal Services · Litigation · Lobbying · Professional Services
 
-> "In an industry built on talk, we've made our name by doing." — Cozen O'Connor homepage
+## Cozen O'Connor on APIs.io
 
-## Scope
+Everything profiled for Cozen O'Connor is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cozen-oconnor/](https://apis.io/providers/cozen-oconnor/)** — or go straight to one of the APIs or properties below.
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
-- **Classification:** Company
+### APIs (3)
 
-## Firm Profile
+- [Cozen O'Connor Public Website](https://apis.io/apis/cozen-oconnor/website/) — The Cozen O'Connor public website at cozen.com is the firm's primary external knowledge surface, organizing attorney biographies, practice and industry…
+- [Cozen O'Connor Public Strategies](https://apis.io/apis/cozen-oconnor/public-strategies/) — Cozen O'Connor Public Strategies (copublicstrategies.com) is the firm's bipartisan government affairs and lobbying arm, representing corporations,…
+- [Cozen O'Connor LexBlog / WordPress Blog Network](https://apis.io/apis/cozen-oconnor/blog-network/) — Cozen O'Connor publishes an unusually broad network of practice-area blogs and podcasts hosted on LexBlog / WordPress infrastructure. Each blog is reachable…
 
-- **Founded:** 1970
-- **Headquarters:** Philadelphia, PA
-- **Attorneys:** 1,000+ (firm-stated; ~875 third-party estimate)
-- **Offices:** 33+ cities across two continents (U.S., Canada, U.K.)
-- **Am Law Ranking:** Am Law 100
-- **Chairman & CEO:** Michael J. Heller
-- **President & Managing Partner:** Vincent R. McGuinness, Jr.
-- **Vice Chairman:** Elliott R. Feldman
-- **Chief Operating Officer:** David W. Ellman
+### Published properties
 
-## Tags
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- Am Law 100, Corporate Law, Government Affairs, Insurance Law, Intellectual Property, Labor And Employment, Law, Law Firm, Legal Services, Litigation, Lobbying, Professional Services, Public Strategies, Real Estate, Subrogation, Thought Leadership
+#### GraphQL (1)
 
-## Timestamps
+GraphQL schemas.
 
-- **Created:** 2026-05-23
-- **Modified:** 2026-05-23
+- [Moved to /providers/cozen-oconnor/](https://apis.io/graphqls/cozen-oconnor/cozen-oconnor-graphql/)
 
-## APIs
+#### Security (1)
 
-> Cozen O'Connor operates no public developer APIs. The entries below catalog the firm's public information surface — including a substantial WordPress/LexBlog RSS network that *is* programmatically consumable.
+Authentication, trust centre, and vulnerability disclosure.
 
-### Cozen O'Connor Public Website
+- [Cozen Oconnor Domain Security](https://apis.io/security/cozen-oconnor/cozen-oconnor-domain-security/)
 
-The cozen.com website is the firm's primary external knowledge surface — attorney biographies, practice and industry pages, ancillary-business descriptions, office locations, news and publications, and recruiting content. No OpenAPI, GraphQL, or developer portal. Email subscription is offered for publications; RSS is not exposed at the corporate domain.
+## Where to find this API
 
-**Human URL:** [https://www.cozen.com](https://www.cozen.com)
-
-#### Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.cozen.com)
-- [About](https://www.cozen.com/about)
-- [People](https://www.cozen.com/people)
-- [Practices & Industries](https://www.cozen.com/practices)
-- [News & Resources](https://www.cozen.com/news-resources)
-- [Blogs & Podcasts](https://www.cozen.com/news-resources/blogs)
-- [Firm Leadership](https://www.cozen.com/about/firm-leadership)
-- [Careers](https://www.cozen.com/careers)
-- [Contact](https://www.cozen.com/contact-us)
 
-### Cozen O'Connor Public Strategies
+## API Evangelist rating
 
-The firm's bipartisan federal, state, and local government affairs and lobbying arm. Service lines include federal lobbying, state and local lobbying, strategic communications, procurements/grants/loans support, policy monitoring and analysis, and a national State Attorneys General practice. Primary office: 2001 M Street NW, Suite 500, Washington, DC. Activity is publicly reportable through Senate LDA filings.
+**Kin Score 4.6** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-**Human URL:** [https://www.copublicstrategies.com](https://www.copublicstrategies.com)
-
-#### Properties
-
-- [Website](https://www.copublicstrategies.com)
-- [RSS Feed](https://www.copublicstrategies.com/feed/)
-- [Beltway Briefing Podcast](https://www.copublicstrategies.com/beltway-briefing)
-- [Lobbying Disclosure Filings (Senate LDA)](https://lda.senate.gov/system/public/)
-
-### Cozen O'Connor LexBlog / WordPress Blog Network
-
-The firm publishes 14+ practice-area blogs and podcasts on LexBlog/WordPress infrastructure. Each blog is on its own domain and exposes a standard WordPress RSS 2.0 feed at `/feed/` — the closest thing to a machine-readable API the firm provides, and the surface that makes the firm indexable by news aggregators, LLM crawlers, and downstream thought-leadership pipelines.
-
-**Human URL:** [https://www.cozen.com/news-resources/blogs](https://www.cozen.com/news-resources/blogs)
-
-## Practice Areas
-
-- Litigation
-- Subrogation And Recovery
-- Global Insurance
-- Corporate, M&A, And Securities
-- Intellectual Property
-- Real Estate
-- Labor And Employment
-- Class Actions
-- Cybersecurity And Data Privacy
-- Technology, Privacy, And Data Security
-- Healthcare And Life Sciences
-- Government Relations And Public Policy
-- Family Law
-- Tax
-- Construction
-- Bankruptcy, Insolvency, And Restructuring
-- White Collar Defense
-- Appellate
-- Professional Responsibility
-- State Attorneys General
-
-## Industry Groups
-
-- Insurance
-- Healthcare And Life Sciences
-- Energy
-- Real Estate
-- Technology
-- Financial Services
-- Hospitality
-- Education
-- Communications
-- Infrastructure
-- Entertainment
-- Trade
-- Retail And Consumer Products
-- Cannabis
-- Transportation
-
-## Ancillary Businesses
-
-| Business | Description |
+| Facet | Score |
 |---|---|
-| [Cozen O'Connor Public Strategies](https://www.copublicstrategies.com) | Bipartisan federal, state, and local government affairs and lobbying. |
-| National Subrogation Services | Outsourced subrogation recovery operations for carrier clients. |
-| COSECURE | Security risk consulting, investigations, and corporate intelligence. |
-| CODISCOVR | Discovery management, e-discovery, and legal technology services. |
-| HomeBase | Family-office advisory and household administration services. |
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
 
-## Thought Leadership (Validated RSS Network)
+**Agent readiness 0.0** — human-only
 
-All 14 blog/podcast feeds below were fetched and confirmed as well-formed RSS 2.0 during this profiling run.
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Blog / Podcast | Topic | RSS Feed |
-|---|---|---|
-| [Subrogation & Recovery Law Blog](https://www.subrogationrecoverylawblog.com) | Subrogation And Recovery | [/feed/](https://www.subrogationrecoverylawblog.com/feed/) |
-| [Subro on the Go Podcast](https://www.subrogationrecoverylawblog.com/category/subro-on-the-go-podcast) | Subrogation Podcast | (shared blog feed) |
-| [Cyber Law Monitor](https://www.cyberlawmonitor.com) | Cybersecurity & Data Privacy | [/feed/](https://www.cyberlawmonitor.com/feed/) |
-| [Transformative AI: Legal Leaps](https://www.transformativeailegalleaps.com) | AI Law | [/feed/](https://www.transformativeailegalleaps.com/feed/) |
-| [The State AG Report](https://www.stateagreport.com) | State Attorneys General | [/feed/](https://www.stateagreport.com/feed/) |
-| [State AG Pulse Podcast](https://www.stateagreport.com/podcasts) | State AG Podcast | (shared blog feed) |
-| [Health Law Informer](https://www.healthlawinformer.com) | Healthcare Law | [/feed/](https://www.healthlawinformer.com/feed/) |
-| [Avoiding Insurance Bad Faith](https://www.nobadfaith.com) | Insurance Bad Faith | [/feed/](https://www.nobadfaith.com/feed/) |
-| [Casualty Coverage Chronicle](https://www.casualtycoveragechronicle.com) | Casualty Insurance Coverage | [/feed/](https://www.casualtycoveragechronicle.com/feed/) |
-| [Property Insurance Law Observer](https://www.propertyinsurancelawobserver.com) | First-Party Property Insurance | [/feed/](https://www.propertyinsurancelawobserver.com/feed/) |
-| [Employment Law Now Podcast](https://www.employmentlawnow.com) | Employment Law | [/feed/](https://www.employmentlawnow.com/feed/) |
-| [Family Law Focus](https://www.familylawfocusblog.com) | Family Law | [/feed/](https://www.familylawfocusblog.com/feed/) |
-| [Get the Dirt](https://www.getthedirtblog.com) | DC Real Estate / Zoning / Land Use | [/feed/](https://www.getthedirtblog.com/feed/) |
-| [OSHA Chronicle](https://www.oshachronicle.com) | OSHA Enforcement | [/feed/](https://www.oshachronicle.com/feed/) |
-| [Lawyers Representing Lawyers](https://www.lawyersrepresentinglawyers.com) | Professional Responsibility | [/feed/](https://www.lawyersrepresentinglawyers.com/feed/) |
-| [Cozen O'Connor Public Strategies](https://www.copublicstrategies.com) | Public Policy / Gov Affairs | [/feed/](https://www.copublicstrategies.com/feed/) |
-| [Beltway Briefing Podcast](https://www.copublicstrategies.com/beltway-briefing) | Federal Politics & Policy | (shared Public Strategies feed) |
+**Regulatory alignment 5.3** — Insurance
 
-## Common Properties
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cozen-oconnor/](https://apis.io/providers/cozen-oconnor/).
 
-- [Website](https://www.cozen.com)
-- [About](https://www.cozen.com/about)
-- [People](https://www.cozen.com/people)
-- [Practices & Industries](https://www.cozen.com/practices)
-- [Firm Leadership](https://www.cozen.com/about/firm-leadership)
-- [News & Resources](https://www.cozen.com/news-resources)
-- [Blogs & Podcasts](https://www.cozen.com/news-resources/blogs)
-- [Public Strategies](https://www.copublicstrategies.com)
-- [Careers](https://www.cozen.com/careers)
-- [Contact](https://www.cozen.com/contact-us)
-- [LinkedIn](https://www.linkedin.com/company/cozen-o'connor)
-- [Wikipedia](https://en.wikipedia.org/wiki/Cozen_O%27Connor)
+## How this profile is made
 
-## Notable Absences
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-- **No public APIs** — no REST, GraphQL, webhook, or SDK surface.
-- **No GitHub organization** — no `github.com/cozen` or `github.com/cozen-oconnor` exists.
-- **No OpenAPI / AsyncAPI / JSON Schema** — not applicable to a law-firm public site.
-- **No corporate-domain RSS** — cozen.com itself uses email subscription only; the firm's RSS surface lives entirely on its LexBlog blog network.
-- **No public pricing** — engagements are bespoke and quoted per matter.
-- **No status page / changelog** — firm is not a SaaS provider.
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Cozen O'Connor: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## Maintainers
+## Open an issue
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cozen-oconnor/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
